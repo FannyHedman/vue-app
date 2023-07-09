@@ -79,11 +79,11 @@ export default {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 10px;
-  background-color: #7ac3f053;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  border-bottom-right-radius: 100px;
-  border-bottom-left-radius: 100px;
+  background-color: #a8d8f5bc;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
   padding: 100px;
 }
 
