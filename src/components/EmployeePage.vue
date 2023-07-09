@@ -67,6 +67,7 @@ export default {
 <style scoped>
 .staff-container h2 {
   text-align: center;
+  color: #ea5e07;
   margin-top: 50px;
   margin-bottom: 50px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
@@ -78,11 +79,11 @@ export default {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 10px;
-  background-color: rgba(157, 217, 217, 0.3);
-  border-top-left-radius: 800px;
-  border-top-right-radius: 800px;
-  border-bottom-right-radius: 800px;
-  border-bottom-left-radius: 800px;
+  background-color: #7ac3f053;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
   padding: 100px;
 }
 
@@ -95,7 +96,7 @@ export default {
 
 .grid-content a {
   text-decoration: none;
-  color: black;
+  color: rgb(72, 31, 31);
   background-color: rgba(255, 255, 255, 0.58);
   margin-bottom: 30px;
   border-radius: 8px;
@@ -103,9 +104,9 @@ export default {
 }
 
 .grid-content h4 {
-  font-weight: normal;
   font-size: 1.2rem;
   margin-bottom: 10px;
+  color: rgb(72, 31, 31);
 }
 
 .button-container {
@@ -134,5 +135,7 @@ export default {
 
 .img {
   border-radius: 50%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 </style>

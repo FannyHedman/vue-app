@@ -17,7 +17,8 @@ export default {
 
 <style scoped>
 #navbar {
-  background-color: rgb(255, 255, 255);
+  background-color: #eb894c;
+  color: white;
   position: relative;
   z-index: 1;
   display: flex;
